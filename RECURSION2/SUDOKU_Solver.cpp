@@ -9,7 +9,8 @@ bool isSafe(vector<vector<char>> &board, int i , int j , int n , int dig){
     }
 
     for(int c=0;c<n;c++){   // check horizontally
-        if(board[i][c]==dig + '0'){ return false ;}
+        if(board[i][c]==dig + '0'){
+            return false ;}
     }
 
     int temp = sqrt(n) ;
