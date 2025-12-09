@@ -10,7 +10,8 @@ bool solve(int n1, int n2, int i, int j,int cnt, string ans ){
 			cout<< x ;
 		}
 		cout<<" ";
-		return true ;}
+		return true ;
+	}
 
 	if(i>=n1 || j>=n2){ return false ;}
 
