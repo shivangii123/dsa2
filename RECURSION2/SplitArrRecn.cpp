@@ -17,7 +17,7 @@ void solve(int n , vector<int>&arr, int index,int &cnt, int sum1, int sum2,vecto
 		}
 		return ;
 	}
-
+		
 	nums1.push_back(arr[index]); // choice 1
 	solve(n,arr,index+1,cnt, sum1+ arr[index], sum2, nums1,nums2);
 	nums1.pop_back();
